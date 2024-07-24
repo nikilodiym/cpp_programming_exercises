@@ -13,7 +13,7 @@ struct Fraction {
     }
 
     void simplify() {
-        int gcd = std::gcd(numerator, denominator);
+        int gcd = (numerator, denominator);
         numerator /= gcd;
         denominator /= gcd;
 
